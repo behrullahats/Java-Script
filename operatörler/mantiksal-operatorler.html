@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java-Script Karşılaştırma Operatörleri </title>
+    <script type="text/javascript">
+        /* 
+        Mantıksal Öperatörler
+        Birden fazla koşulu test etmek için kullanıyoruz...
+
+        && => Şartlardan ikiside Gerçekleştirilmiş olmalı ve anlamına gelmektedir.
+
+        || => Şartlardan biri gerçekleşmiş olmalı.
+
+        ! => Değilse anlamına gelmektedir.
+
+       
+        */
+
+        var a = 10;
+        var b = 20;
+        var c = 30;
+        var d = 40;
+
+        var seyit = "Seyit Behrullah";
+
+
+        if (a < b && c < d) {
+            console.log("Doğru");
+        }
+
+        if (a < b || d < c) {
+            console.log("Şartlardan birisi eşleşmiyor");
+        }
+        if (!seyit) {
+            console.log("Değil");
+        } else {
+            console.log("İçerik dolu ve içerisinde " + " \"\ " + seyit + " \"\ " + "Yazıyor ");
+        }
+    </script>
+
+</head>
+
+
+
+<body>
+    Java Script Eğitim 1
+
+</body>
+
+</html>
