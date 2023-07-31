@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java-Script Hata Yönetimi </title>
+    <script type="text/javascript">
+        /*
+       Hata Yönetimi
+
+       try-catch
+
+        Oluşabilecek hataları ön görerek sonrasında özelleştirme yapılır
+       
+       */
+        var a = 30;
+        var b = 20;
+        try {
+            if (a < b) {
+                throw "Küçük";
+            }
+            if (a == b) {
+                throw "Eşit";
+            }
+            if (a > b) {
+                throw "Büyük";
+            }
+
+
+        } catch (error) {
+            document.write(error);
+        }
+    </script>
+
+</head>
+
+
+
+<body>
+
+</body>
+
+</html>

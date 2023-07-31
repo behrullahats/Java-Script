@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java-Script Diziler </title>
+    <script type="text/javascript">
+        /*
+       Diziler
+        -Bir değişkene birden fazla eleman atamak için dizi kullanırız.
+        -Dizilere indix numarası ile ulaşabilir.
+        -Dizilerin indix nuymarası ile işlem yapabiliriz.
+        -Diziler 0 dan başlar.
+       */
+        var kurslar;
+        kurslar = new Array(
+            "php", "bootstrap", "jquery", "javascript"
+        );
+        //Dizi elemanalarına erişme
+        //document.write(kurslar);
+
+        //Dizi Elemanlarına Teker Teker Erişme
+
+        // document.writeln(kurslar[0]);
+        // document.writeln(kurslar[1]);
+        // document.writeln(kurslar[2]);
+        // document.writeln(kurslar[3]);
+
+        //For Döngüsü ile yazdırma
+
+        var say = kurslar.length;
+        for (let i = 0; i < say; i++) {
+
+            document.write(kurslar[i] + "<br>");
+        }
+
+        //for in ile yazdırma
+
+        for (key in kurslar) {
+            document.write(kurslar[key]);
+        }
+    </script>
+
+</head>
+
+
+
+<body>
+
+</body>
+
+</html>

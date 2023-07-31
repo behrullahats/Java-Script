@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java-Script Diziler </title>
+    <script type="text/javascript">
+        /*
+      delete : dizide çukurlar oluşmasına imkan sağlar o yüzden splice kullanılması önerilir.
+      
+       */
+
+        var kurslar = new Array("PHP", "Bootstrap", "Jquery", "Java script");
+
+        document.writeln(kurslar + "<br>");
+        // delete kurslar[0];
+        // document.write(kurslar);
+        //Kursların 0.indix silindi ancak ben 0.indix çağırdığım zaman hata verecektir.
+
+        // document.write(kurslar[0]);
+
+        //undefined hatası alırsın bu yüzden yapmamız gereken splice kullanmak. 
+
+        kurslar.slice(2, 2);
+        document.writeln(kurslar);
+    </script>
+
+</head>
+
+
+
+<body>
+
+</body>
+
+</html>
