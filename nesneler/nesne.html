@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java-Script Nesneler </title>
+    <script type="text/javascript">
+        //Nesneler
+
+        // var araba = {
+        //     ad: 'FORD',
+        //     renk: 'Kırmızı',
+        //     fiyat: '10400',
+        //     yil: '2004'
+        // }
+        // console.log(araba);
+
+        // Functionlarda Nesne Yapımı...
+
+        // function motor(ad, renk, fiyat, yil) {
+        //     this.adi = ad;
+        //     this.rengi = renk;
+        //     this.fiyati = fiyat;
+        //     this.yili = yil;
+        // }
+
+        // var araba = new motor("SYM", "Siyah", 100000, 2022);
+
+        // console.log(motor);
+
+        //Nesne Alanlarına Erişim
+
+        // var seyit = new Object();
+
+        // seyit.tc = "10560023838";
+        // seyit.boy = "165cm";
+        // seyit.kilo = "75kğ";
+
+        // document.write("TC= " + (seyit.tc) + "<br>");
+        // document.write("Boy= " + seyit.boy + "<br>");
+        // document.write("Kilo= " + seyit.kilo);
+
+
+        function seyit(tc, boy, kilo) {
+            this.tcsi = tc;
+            this.boyu = boy;
+            this.kilosu = kilo;
+        }
+        var seyit1 = new seyit("10560023838", "165cm", "77 kilo");
+        document.write(seyit1.tcsi);
+    </script>
+
+</head>
+
+
+
+<body>
+
+
+
+</body>
+
+</html>
